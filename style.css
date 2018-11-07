@@ -1,0 +1,82 @@
+.container {
+}
+
+.turn-off{
+  background-color: #000;
+	-webkit-transition:background-color linear 5s;
+	-moz-transition:background-color linear 5s;
+	-o-transition:background-color linear 5s;
+	-ms-transition:background-color linear 5s;
+	transition:background-color linear 5s;
+	overflow-x:hidden;
+}
+.turn-on{
+	background-color:#f796d2 !important;
+}
+
+.message {
+	margin-top: 100px;
+	/* display: none; */
+}
+
+.message p{
+	font-family: 'Amatic SC', cursive;
+	font-size: 75px;
+}
+
+.flower{
+	background-image:url('f2.png');
+	background-size:contain;
+  background-repeat:no-repeat !important;
+  background-position:bottom;
+	-webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+	width: 200px;
+	height: 200px;
+	padding:0 0 0 0;
+	/* display: inline; */
+	/* margin-left: 425px; */
+}
+
+.flower2{
+	background-image:url('f1.png');
+	background-size:contain;
+  background-repeat:no-repeat !important;
+  background-position:center;
+	width: 200px;
+	height: 200px;
+	padding:0 0 0 0;
+}
+
+#paper-roll{
+	background-image:url('paper-roll.png');
+	background-size:contain;
+  background-repeat:no-repeat !important;
+  background-position:center;
+	width: 400px;
+	height: 400px;
+	padding:0 0 0 0;
+	margin-left:350px;
+}
+
+#cake{
+	background-image:url('cake.png');
+	background-size:contain;
+  background-repeat:no-repeat !important;
+  background-position:center;
+	width: 400px;
+	height: 400px;
+	padding:0 0 0 0;
+	margin-left:350px;
+}
+
+.float-left{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+.float-right{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+}
